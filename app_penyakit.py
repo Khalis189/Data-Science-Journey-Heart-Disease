@@ -5,7 +5,7 @@ import pickle #untuk load model
 from sklearn.preprocessing import LabelEncoder #untuk labeling input
 
 #2. Load Model
-with open('best_model_rf.pkl', 'rb') as file:
+with open('best_model_mlp.pkl', 'rb') as file:
     model = pickle.load(file)
 
 #3. Data Preprocessing
