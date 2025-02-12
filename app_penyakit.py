@@ -3,8 +3,6 @@ import streamlit as st #untuk membuat web app
 import pandas as pd #untuk manipulasi data
 import pickle #untuk load model
 from sklearn.preprocessing import LabelEncoder #untuk labeling input
-import time
-from PIL import Image
 
 #2. Load Model
 with open('best_model_rf.pkl', 'rb') as file:
